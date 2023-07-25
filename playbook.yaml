@@ -1,0 +1,24 @@
+---
+- name: conditional playbook...
+  hosts: all
+  remote_user: ansible
+  become: true
+  tasks:
+    - name: create a user on dbserver...
+      user:
+        name: kalia
+        state: present
+      when: inventory_hostname in groups["dbservers"]
+
+    - name: create a user on dbserver...
+      user:
+        name: balia
+        state: present
+      when: inventory_hostname in groups["dbservers"] and ansible_hostname == "node1"
+
+    - name: checking double conditions....
+      yum:
+        name: httpd
+        state: latest
+      when: inventory_hostname == "node1" or inventory_hostname ==  "worker2"
+
