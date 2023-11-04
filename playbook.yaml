@@ -22,3 +22,4 @@
         state: latest
       when: inventory_hostname == "node1" or inventory_hostname ==  "worker2"
 
+#aaaa
