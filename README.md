@@ -1,9 +1,9 @@
-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-personal token for nov23
+
 - 👋 Hi, I’m @disisdsid
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👀 I’m interested in ...DevOps
+- 🌱 I’m currently learning ...AWS
+- 💞️ I’m looking to collaborate on ...OS projects
+- 📫 How to reach me ...on my linkedin profile oc.
 
 <!---
 disisdsid/disisdsid is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
